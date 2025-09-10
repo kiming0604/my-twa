@@ -54,6 +54,74 @@
   background-color: white;
 }
 
+.BalanceInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.BalanceAmount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007AFF;
+  text-align: center;
+}
+
+.BalanceValue {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.TestnetInfo {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #f0f8ff;
+  border-radius: 6px;
+  border-left: 3px solid #007AFF;
+}
+
+.TestnetInfo small {
+  color: #007AFF;
+  font-weight: 500;
+}
+
+.TestnetGuide {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.TestnetGuide p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.FaucetLinks {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.FaucetLinks a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #007AFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.FaucetLinks a:hover {
+  background-color: #0056CC;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --tg-theme-bg-color: #131415;
